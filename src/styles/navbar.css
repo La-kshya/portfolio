@@ -2,6 +2,10 @@
     background-color: #1a1a1a;
     color: white;
     padding: 15px 0;
+    top: 0;
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.7);  */
+  z-index: 10; /* Higher than the particles */
   }
   
   .container {
