@@ -1,0 +1,28 @@
+.welcome-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    overflow: hidden; /* Prevents the rocket from causing scroll */
+  }
+  
+  .welcome-content {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .rocket {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    bottom: 20px; /* Start from the bottom */
+  }
+  

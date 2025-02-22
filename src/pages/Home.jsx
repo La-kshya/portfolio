@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ParticleEffect from "../components/ParticleEffect";
+import "../styles/home.css";
+
 
 export default function Home() {
   return (
@@ -10,13 +12,13 @@ export default function Home() {
 
       {/* Hero Section */}
       <motion.div 
-        className="hero-section"
+        className="home"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <h1 className="hero-title">Welcome to My Portfolio</h1>
-        <p className="hero-subtitle">I create stunning animations & experiences.</p>
+        <h1>Welcome to My Portfolio</h1>
+        <p >I create stunning animations & experiences.</p>
       </motion.div>
     </div>
   );
